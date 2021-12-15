@@ -1,0 +1,43 @@
+* {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+body {
+  padding: 70px;
+  color: white;
+  background-color: black;
+}
+
+
+input {
+  color: black;
+  background-color: rgb(7, 241, 230);
+  font-size: 1.2rem;
+  width: 100%;
+}
+
+.card-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card {
+  align-content: center;
+  border: 1px solid rgb(7, 241, 230);
+  border-radius: 5px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  overflow: hidden;
+  
+}
+
+.card p {
+  padding: 5px;
+  text-align: center;
+}
+
+.card img {
+  max-height: 230px;
+}
+
